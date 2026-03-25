@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# General
+Thumbs.db
+ehthumbs.db
+temp/
+/tmp/
+
+# Logs
+*.log
