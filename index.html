@@ -247,14 +247,14 @@ Density @ 20C: 895 kg/m3</pre>
                 <h2>Request Access to Secure Data Room</h2>
                 <p>Data is handled via private, encrypted folders. Access is granted manually after a short request.</p>
                 
-                <form class="intake-form">
+                <form class="intake-form" action="https://formspree.io/apauldelich@gmail.com" method="POST">
                     <div class="form-row">
-                        <input type="text" placeholder="Name" required>
-                        <input type="text" placeholder="Company" required>
+                        <input type="text" name="name" placeholder="Name" required>
+                        <input type="text" name="company" placeholder="Company" required>
                     </div>
                     <div class="form-row">
-                        <input type="email" placeholder="Professional Email" required>
-                        <select required>
+                        <input type="email" name="email" placeholder="Professional Email" required>
+                        <select name="challenge" required>
                             <option value="" disabled selected>Primary Challenge</option>
                             <option value="statistical-drift">Statistical Drift / 3-Sigma Monitoring</option>
                             <option value="manual-alignment">Manual Excel Alignment & Header Mapping</option>
@@ -262,7 +262,7 @@ Density @ 20C: 895 kg/m3</pre>
                             <option value="anonymized-sample">Send Anonymised Sample Dataset</option>
                         </select>
                     </div>
-                    <textarea placeholder="Briefly describe your dataset (e.g. 50 Intertek PDFs, multi-year history)..." rows="3"></textarea>
+                    <textarea name="description" placeholder="Briefly describe your dataset (e.g. 50 Intertek PDFs, multi-year history)..." rows="3"></textarea>
                     
                     <div class="trust-indicators-grid">
                         <div class="trust-tag">✓ Secure 1:1 Folder (OneDrive)</div>
